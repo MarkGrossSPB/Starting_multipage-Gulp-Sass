@@ -1,0 +1,131 @@
+/* ==========================================================================
+  1. БИБЛИОТЕКИ
+  2. ШРИФТЫ
+  3. SASS ПЕРЕМЕННЫЕ
+  4. ТИПОВЫЕ СТИЛИ
+    4.1 Основные
+    4.2 Заголовки
+    4.3 Ссылки
+    4.4 Формы
+    4.5 Общие
+  5.HEADER
+
+  И Т.Д......
+========================================================================== */
+
+/* ----- 1.БИБЛИОТЕКИ ----- */
+@import "libs";
+
+/* ----- 2.ШРИФТЫ ----- */
+@import "font";
+
+/* ----- 3. SASS ПЕРЕМЕННЫЕ ----- */
+@import "vars";
+
+/* ------ 4. ТИПОВЫЕ СТИЛИ ------ */
+/* ------ 4.1 Документ ------ */
+html {
+  font-size: 16px;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: $text;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: $font-default;
+  overflow-x: hidden;
+}
+
+/* ------ 4.2 Заголовки ------ */
+.h1 {
+  font-size: 2.250rem;
+}
+
+.h2 {
+  font-size: 1.875rem;
+}
+
+.h3 {
+  font-size: 1.500rem;
+}
+
+.h4 {
+  font-size: 1.125rem;
+}
+
+.h5 {
+  font-size: 0.875rem;
+}
+
+.h6 {
+  font-size: 0.750rem;
+}
+
+/* ------ 4.3 Ссылки ------ */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #497DDD; 
+}
+
+a:visited {
+  color: #EF7D55;
+}
+
+a:hover {
+  color: #154088; 
+}
+
+a:active {
+  color: #497DDD; 
+}
+
+/* ------ 4.4 Формы ------ */
+body input,
+body textarea {
+  border: #666 1px solid;
+  outline: none;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  border-color: red
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  border-color: green
+}
+
+/* ------ 4.5 Общие ------ */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ----- 5.HEADER ----- */
+
+
+
+
+
+
+
+
+
+
+@import "media";
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+//font by default
+$font-default: Roboto, Helvetica, Verdana, sans-serif;
+
+//all fonts
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'),
+			url('../fonts/Roboto-Regular/roboto-regular.woff2') format('woff2'), 
+			url('../fonts/Roboto-Regular/roboto-regular.woff') format('woff');
+}
